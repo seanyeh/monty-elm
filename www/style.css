@@ -1,0 +1,49 @@
+body {
+    background-image: url("connectwork.png");
+    background-repeat: repeat;
+
+    color: #DDD;
+
+    max-width: 800px;
+    margin: auto;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+    margin: auto;
+}
+
+fieldset label {
+    display: block;
+    text-align: center;
+}
+
+#status span {
+    margin-top: 20px;
+
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+
+    font-size: 1.3em;
+}
+
+#log {
+    margin-top: 20px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.9em;
+
+    border: 1px dotted gray;
+}
+
+#log > div {
+    /* text-align: center; */
+}
